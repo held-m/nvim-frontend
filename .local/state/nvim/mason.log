@@ -1,0 +1,4 @@
+[INFO  Wed Nov 16 02:45:39 2022] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:118: Executing installer for Package(name=typescript-language-server)
+[ERROR Wed Nov 16 02:45:41 2022] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:154: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code 243 and signal 0. 
+[INFO  Wed Nov 16 02:51:25 2022] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:118: Executing installer for Package(name=typescript-language-server)
+[INFO  Wed Nov 16 02:51:26 2022] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:150: Installation succeeded for Package(name=typescript-language-server)

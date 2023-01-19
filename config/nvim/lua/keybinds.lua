@@ -33,3 +33,6 @@ map('v', '<Leader>w', '<CMD>FzfLua grep_cword<CR>')
 map('n', '<Leader>o', '<CMD>FzfLua<CR>')
 map('i', '<Leader>o', '<CMD>FzfLua<CR>')
 map('v', '<Leader>o', '<CMD>FzfLua<CR>')
+-- Prettierd
+map('n', '<Leader>f', '<CMD>Format<CR>')
+map('n', '<Leader>F', '<CMD>FormatWrite<CR>')

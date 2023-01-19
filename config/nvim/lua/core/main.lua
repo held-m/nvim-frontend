@@ -16,10 +16,9 @@ vim.opt.shiftwidth = 4
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_python3_provider = 0
 vim.g.loaded_perl_provider = 0
-vim.g.loaded_node_provider = 0
 
 -- save history for undo
 -- vim.opt.undodir = vim.fn.expand('~/.nvim/undodir')
 vim.o.undofile = true
 
-vim.wo.colorcolumn = "120"
+vim.wo.colorcolumn = "90"

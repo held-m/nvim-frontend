@@ -5,7 +5,7 @@
 
 ## Usage
 docker  
-`docker run -it -v $(pwd):/app %name% sh`
+`docker run -it -v $(pwd):/app -v $XDG_RUNTIME_DIR/$WAYLAND_DISPLAY:/tmp/$WAYLAND_DISPLAY %name% -p 19000:19000 sh`
 
 docker-compose.yml
 ```
@@ -13,7 +13,7 @@ version: "3"
 
 services:
   nvim:
-    image:docker.simonenko.club/nvim-node14.21:latest
+    image:docker.simonenko.club/nvim-node19.1:latest
     volumes:
         - ./:/app
 ```
